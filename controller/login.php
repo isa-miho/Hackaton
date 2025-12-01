@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Faz ai</title>
-    <link rel="stylesheet" href="../view/login.css">
+    <link rel="stylesheet" href="../view/public/css/login.css">
 </head>
 <body>
     <header>
         <div class="container_login">
             <div class="form_login">
                 <div class="img_login">
-                    <img src="" alt="">
+                    <img src="../view/public/imagens/logo.png" alt="">
                     <h2 class="h2_login">Login</h2>
                 </div>
                 <form action="" method="POST" id="myForm" class="formulario_login">
