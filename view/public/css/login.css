@@ -79,3 +79,17 @@ body {
 .p_login a{
   color: var(--color-primary-6);
 }
+
+@media (max-width:360px){
+  .form_login{
+    width: 90%;
+    position: relative;
+    padding: 20px;
+    margin: 10px auto;
+    margin-top: 30%;
+    align-items: center;
+  }
+  .input_login {
+    width: 250px;
+  }
+}
