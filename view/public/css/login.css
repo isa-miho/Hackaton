@@ -1,71 +1,78 @@
 @import url("styles.css");
 
-
-body{
-    background-color: var( --color-fundo-7);
+body {
+  background-color: var(--color-fundo-8);
 }
-.form_login{
-    width: 50%;
-    height: 500px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    padding: 20px;
-    text-align: center;
-    margin: 10px auto ;
-    margin-top: 8%;
+.form_login {
+  width: 50%;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 10%;
+  align-items: center;
 }
-.img_login{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+.img_login {
+  margin-top: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.h2_login{
-    color: black;
-    margin-top: 10px;
+.img_login img {
+  width: 70px;
 }
-.formulario_login{
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-
+.h2_login {
+  color: black;
+  margin-top: 10px;
 }
-.input_login{
-    height: 30px;
-    width: 400px;
-    border: 1px solid var( --color-primary-1);
+.formulario_login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
-.input_login::placeholder{
-    font-weight: 500;
-    font-size: 12px;
-    opacity: 0.7;
-    padding: 0px 10px;
+.input_login {
+  height: 30px;
+  width: 400px;
+  border: 2px solid var(--color-primary-1);
+  border-radius: 5px;
 }
-.button_login button{
-    width: 100px;
-    height: 25px;
-    border: none;
-    border-radius: 2px;
- 
+.input_login:focus {
+  border-color: var(--color-primary-2);
+  box-shadow: 0px 2px 2px var(--color-primary-2);
+  outline: none;
 }
-.vermelho_login{
-    color: white;
-    background-color: var(--color-primary-10);
+.input_login::placeholder {
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.7;
+  padding: 0px 10px;
 }
-.verde_login{
-    color: white;
-    background-color: var(--color-primary-9);
+.button_login button {
+  width: 100px;
+  height: 25px;
+  border: none;
+  border-radius: 3px;
 }
-.p_login{
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    gap: 10px;
-   font-style: bold;
+.vermelho_login {
+  color: white;
+  background-color: var(--color-primary-10);
+}
+.verde_login {
+  color: white;
+  background-color: var(--color-primary-9);
+}
+.p_login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 5px;
+  font-style: bold;
 }

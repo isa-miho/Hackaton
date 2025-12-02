@@ -1,3 +1,6 @@
+<?php
+include "menu.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,12 +23,12 @@
                     <div class="g-recaptcha" data-sitekey="6LdyqOUrAAAAAGCnu7xdDfJ4QovvUsJMRuOgUvOa"></div>
                 </form>
                 <div class="button_login">
-                    <button class="verde_login" >Login</button>
                     <button class="vermelho_login">Cancelar</button>
+                    <button class="verde_login" >Login</button>
                 </div>
                 <div class="p_login">
                     <p class="p_login"><a href="">Esqueci minha senha</a></p>
-                    <p class="p_login"><a href="">Cadastra-se</a></p>
+                    <p class="p_login"><a href="cadastro.php">Cadastre-se</a></p>
                 </div>
 
             </div>
