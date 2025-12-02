@@ -8,7 +8,6 @@ include "menu.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Faz ai</title>
     <link rel="stylesheet" href="../view/public/css/cadastro.css">
-    <link rel="stylesheet" href="../view/public/css/footer.css">
 </head>
 
 <body>
