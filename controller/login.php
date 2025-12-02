@@ -8,6 +8,7 @@ include "menu.php"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Faz ai</title>
     <link rel="stylesheet" href="../view/public/css/login.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@ include "menu.php"
                     <button class="vermelho_login">Cancelar</button>
                     <button class="verde_login" >Login</button>
                 </div>
-                <div class="p_login">
+                <div class="info_login">
                     <p class="p_login"><a href="">Esqueci minha senha</a></p>
                     <p class="p_login"><a href="cadastro.php">Cadastre-se</a></p>
                 </div>

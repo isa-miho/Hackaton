@@ -8,6 +8,7 @@ include "menu.php"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Faz ai</title>
     <link rel="stylesheet" href="../view/public/css/cadastro.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header>
@@ -29,7 +30,7 @@ include "menu.php"
                     <button class="verde_cadastro" >Cadastrar</button>
                 </div>
                 <div class="">
-                    <p class="p_cadastro">Já tem conta?<a href="cadastro.php">Login</a></p>
+                    <p class="p_cadastro">Já tem conta?<a class="a_cadastro" href="cadastro.php">Login</a></p>
                 </div>
 
             </div>
