@@ -23,7 +23,7 @@ include "menu.php"
                     <input type="email" name="email" id="" placeholder="E-mail" class="input_cadastro">
                     <input type="password" name="senha" id="" placeholder="Senha" class="input_cadastro">
                     <input type="password" name="confirmaSenha" id="" placeholder="Confirmar senha" class="input_cadastro">
-                    <div class="g-recaptcha" data-sitekey="6LdyqOUrAAAAAGCnu7xdDfJ4QovvUsJMRuOgUvOa"></div>
+                    <div class="g-recaptcha" data-sitekey=""></div>
                 </form>
                 <div class="button_cadastro">
                     <button class="vermelho_cadastro">Cancelar</button>
@@ -35,6 +35,8 @@ include "menu.php"
 
             </div>
         </div>
+        
+        <?php include "footer.php"; ?>
     </header>
     
 </body>
