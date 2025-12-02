@@ -1,0 +1,14 @@
+@import url(styles.css);
+
+.footer {
+  background-color: var(--color-primary-5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  bottom: 0;
+}
+
+.copyright {
+  margin: 0;
+}
