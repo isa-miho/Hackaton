@@ -35,7 +35,7 @@ include "menu.php";
                 </div>
 
                 <div>
-                    <p class="p_cadastro">Já tem conta? <a href="cadastro.php">Login</a></p>
+                    <p class="p_cadastro">Já tem conta? <a class="a_cadastro" href="cadastro.php">Login</a></p>
                 </div>
             </div>
         </div>
