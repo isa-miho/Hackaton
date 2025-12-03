@@ -24,7 +24,7 @@
         </div>
     
         <div class="er_card-glass-image">
-            <img src="" alt="imagem poggers">
+            <img src="../view/public/imagens/logo.png" alt="">
         </div>
     </section>
     <section class="er_section-split">
@@ -54,9 +54,8 @@
             </div>
         </div>
     </section>
-    <footer>
-        
-    </footer>
+    <?php include "footer.php"; ?>
+
 
 
 </body>

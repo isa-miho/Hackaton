@@ -22,7 +22,7 @@ include "menu.php";
         <div class="perfil_top">
 
             <div class="foto_usuario">
-                <img src="../view/public/foto_perfil.webp" alt="Foto de Perfil">
+                <img src="../view/public/imagens/foto_perfil.webp" alt="Foto de Perfil">
             </div>
 
             <div class="info_usuario">
