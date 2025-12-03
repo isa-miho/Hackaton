@@ -22,7 +22,7 @@ include "menu.php";
         <div class="perfil_top">
 
             <div class="foto_usuario">
-                <img src="../view/public/foto_perfil.webp" alt="Foto de Perfil">
+                <img src="../view/public/imagens/foto.png" alt="Foto de Perfil">
             </div>
 
             <div class="info_usuario">
@@ -43,6 +43,10 @@ include "menu.php";
 
             <div class="avaliacao_item">
                 <p>Ótimo trabalho! Muito satisfeito com o serviço.</p>
+            </div>
+
+            <div class="avaliacao_item">
+                <p>Muito simpática e atenciosa.</p>
             </div>
 
         </div>
