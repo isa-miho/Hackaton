@@ -39,9 +39,6 @@
                     Com anos de experiência no mercado, desenvolvemos projetos que conectam tecnologia e criatividade 
                     para entregar resultados excepcionais.
                 </p>
-                <a href="#contato" class="er_card-split-cta">
-                    Saiba Mais →
-                </a>
                 <div class="er_card-glass-stats">
                     <div class="er_card-glass-stat">
                         <span class="er_card-glass-stat-number">100+</span>
