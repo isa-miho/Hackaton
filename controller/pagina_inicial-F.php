@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Freelancer - FreeLance Connect</title>
-    <link rel="stylesheet" href="../view/public/css/pagina_inicial.css">
+    <link rel="stylesheet" href="../public/css/pagina_inicial.css">
 </head>
 <body class="dashboard-body">
     <div class="dashboard-container">
@@ -304,6 +304,6 @@
         </main>
     </div>
 
-    <script src="../view/public/js/script-pagina_inicial.js"></script>
+    <script src="script-pagina_inicial-F.js"></script>
 </body>
 </html>
