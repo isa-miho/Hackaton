@@ -1,17 +1,18 @@
-<?php include "view/menu.php"; ?>
+<?php include "menu.php"; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page - Card Glass</title>
-    <link rel="stylesheet" href="public/css/L_page.css">
-    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="../view/public/css/L_page.css">
+    <link rel="stylesheet" href="../view/public/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
     <!-- EXEMPLO 3: Card Vertical com Glass Effect -->
     <section class="er_section-glass">
+        
         <div class="er_card-glass-content">
             <!-- <span class="er_card-glass-tag">Sobre Nós</span> -->
             <h3>Nossa História</h3>
@@ -23,7 +24,7 @@
         </div>
     
         <div class="er_card-glass-image">
-            <img src="public/imagens/logo.png" alt="">
+            <img src="../view/public/imagens/logo.png" alt="">
         </div>
     </section>
     <section class="er_section-split">
@@ -50,7 +51,7 @@
             </div>
         </div>
     </section>
-    <?php include "view/footer.php"; ?>
+    <?php include "footer.php"; ?>
 
 
 
