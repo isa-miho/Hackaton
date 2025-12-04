@@ -7,7 +7,7 @@ include "menu.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - Faz ai</title>
-    <link rel="stylesheet" href="../view/public/css/cadastro.css">
+    <link rel="stylesheet" href="../public/css/cadastro.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@ include "menu.php";
         <div class="content_cadastro">
             <div class="form_cadastro">
                 <div class="img_cadastro">
-                    <img src="../view/public/imagens/logo.png" alt="">
+                    <img src="../public/imagens/logo.png" alt="">
                     <h2 class="h2_cadastro">Cadastro</h2>
                 </div>
 
@@ -35,7 +35,7 @@ include "menu.php";
                 </div>
 
                 <div>
-                    <p class="p_cadastro">Já tem conta? <a class="a_cadastro" href="cadastro.php">Login</a></p>
+                    <p class="p_cadastro">Já tem conta? <a class="a_cadastro" href="/login.php">Login</a></p>
                 </div>
             </div>
         </div>

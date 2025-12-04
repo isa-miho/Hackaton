@@ -8,7 +8,7 @@ include "menu.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil - Faz Ai</title>
 
-    <link rel="stylesheet" href="../view/public/css/perfil.css">
+    <link rel="stylesheet" href="../public/css/perfil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
@@ -22,7 +22,7 @@ include "menu.php";
         <div class="perfil_top">
 
             <div class="foto_usuario">
-                <img src="../view/public/imagens/foto.png" alt="Foto de Perfil">
+                <img src="../public/imagens/foto.png" alt="Foto de Perfil">
             </div>
 
             <div class="info_usuario">

@@ -7,7 +7,7 @@ include "menu.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Faz ai</title>
-    <link rel="stylesheet" href="../view/public/css/login.css">
+    <link rel="stylesheet" href="../public/css/login.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -19,7 +19,7 @@ include "menu.php";
                 <div class="form_login">
 
                     <div class="img_login">
-                        <img src="../view/public/imagens/logo.png" alt="">
+                        <img src="../public/imagens/logo.png" alt="">
                         <h2 class="h2_login">Login</h2>
                     </div>
 
